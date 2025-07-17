@@ -1,7 +1,5 @@
 # System requirements to run the code in the Notebooks
 
-With Python version: 3.10.16
-
 ## With conda
 - Run `conda create -n "inferlog" -c conda-forge python=3.10`
 - Follow the instruction by conda to install and activate the environment

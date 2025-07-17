@@ -32,3 +32,9 @@
 
 Follow the instructions in [StudyReproduction/readme.md](StudyReproduction/readme.md) to setup the docker image used in the study and test the application in a reproducible environment.
 
+## Study Analysis
+### Main Analysis
+We have prepared two notebooks for the analysis presented in our study. The main analysis is conducted here: [StudyAnalysis/study_data_analysis.ipynb](StudyAnalysis/study_data_analysis.ipynb). In this notebook you will find all the quantitative tests, we've conducted for this study, as well as plots that summarize data for both the quantitaive and the qualitative analysis. In this notebook you'll also find some plots that did not make it to the paper due to space limitiations.
+
+### Bayesian Analysis
+The Bayesian analysis conducted for RQ1 - H1 can be found here: [StudyAnalysis/bayesian_data_analysis.ipynb](StudyAnalysis/bayesian_data_analysis.ipynb). This notebook contains the full model together with plots, posterior checks and posterior predictive samples from a secondary prediction model.
