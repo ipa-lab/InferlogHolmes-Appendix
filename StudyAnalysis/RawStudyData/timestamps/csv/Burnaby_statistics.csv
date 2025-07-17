@@ -1,0 +1,4 @@
+name,Task,order,Inference Count,Cancelled Inference Count,Mean Inference Time,Median Inference Time,Setup Issue Count,Total Setup Issue Duration,Removed Event Count,Number of Changes to Model,Number of Changes to Inference,Time to First Change,Time to First Inference,Number of Plots,Number of External Docs,Percentage of Solved Issues,Fully Solved (seconds),Total Task Time,First Issue Detected,First Issue Solved,Second Issue Detected,Second Issue Solved,Third Issue Detected,Third Issue Solved
+Burnaby,C,1,2,1,218.22,218.22,0,0.00,0,0,1,1764.05,281.938,0,0,0.00,null,1884.59,null,null,null,null,null,null
+Burnaby,B,2,6,1,200.52,216.92,1,201.56,0,1,4,90,18.644,0,7,100.00,1479.351,1833.28,85,109,304,432,1376,1479
+Burnaby,A,3,5,0,164.33,102.97,0,0.00,0,0,7,258.385,30.399,0,0,100.00,279.703,1446.64,186,280,null,null,null,null

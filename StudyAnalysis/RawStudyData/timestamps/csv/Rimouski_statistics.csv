@@ -1,0 +1,4 @@
+name,Task,order,Inference Count,Cancelled Inference Count,Mean Inference Time,Median Inference Time,Setup Issue Count,Total Setup Issue Duration,Removed Event Count,Number of Changes to Model,Number of Changes to Inference,Time to First Change,Time to First Inference,Number of Plots,Number of External Docs,Percentage of Solved Issues,Fully Solved (seconds),Total Task Time,First Issue Detected,First Issue Solved,Second Issue Detected,Second Issue Solved,Third Issue Detected,Third Issue Solved
+Rimouski,A,1,2,0,69.76,69.76,0,0.00,0,0,2,395.401,12.559,0,0,100.00,584.626,919.36,null,585,null,null,null,null
+Rimouski,C,2,5,1,127.51,118.67,1,79.64,0,3,1,166.824,18.095,0,0,100.00,575.515,1795.37,48,195,161,217,null,576
+Rimouski,B,3,4,2,251.00,268.89,2,255.75,0,3,2,31.319,52.285,0,0,66.67,null,1751.51,292,169,null,330,null,null

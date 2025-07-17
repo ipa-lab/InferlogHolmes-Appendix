@@ -1,0 +1,4 @@
+name,Task,order,Inference Count,Cancelled Inference Count,Mean Inference Time,Median Inference Time,Setup Issue Count,Total Setup Issue Duration,Removed Event Count,Number of Changes to Model,Number of Changes to Inference,Time to First Change,Time to First Inference,Number of Plots,Number of External Docs,Percentage of Solved Issues,Fully Solved (seconds),Total Task Time,First Issue Detected,First Issue Solved,Second Issue Detected,Second Issue Solved,Third Issue Detected,Third Issue Solved
+Borden,C,1,2,0,175.28,175.28,1,261.12,0,1,0,1556.254,116.205,0,0,0.00,null,2114.14,null,null,null,null,null,null
+Borden,A,2,5,1,105.59,96.13,0,0.00,0,1,2,292.315,15.75,0,0,100.00,445.905,764.26,434,446,null,null,null,null
+Borden,B,3,4,0,159.79,143.68,0,0.00,0,1,4,154.379,28.365,0,2,100.00,1164.392,1177.15,150,166,314,393,null,1164

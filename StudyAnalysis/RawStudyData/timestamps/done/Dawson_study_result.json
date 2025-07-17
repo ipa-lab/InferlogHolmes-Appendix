@@ -1,0 +1,500 @@
+{
+	"participant": "Dawson",
+	"studyStart": "2025-03-04T08:11:23.091Z",
+	"currentTask": 5,
+	"currentTaskStart": "2025-03-04T09:08:55.651Z",
+	"taskOrder": [
+		{
+			"name": "PrePhase",
+			"includesDebugger": false,
+			"todos": []
+		},
+		{
+			"name": "Task C - Eight Schools",
+			"includesDebugger": false,
+			"todos": [
+				"Reparameterize",
+				"Too small tune",
+				"(optional) disable autotuning"
+			]
+		},
+		{
+			"name": "Showcase Debugger",
+			"todos": []
+		},
+		{
+			"name": "Task B - Rotello Heit",
+			"includesDebugger": true,
+			"todos": [
+				"Model typo / unconnected RVs",
+				"Step Scale too large",
+				"Too small tune + sample size"
+			]
+		},
+		{
+			"name": "Task A - Linear Regression",
+			"includesDebugger": true,
+			"todos": [
+				"Step Scale too large"
+			]
+		}
+	],
+	"events": [
+		{
+			"id": 0,
+			"currentTask": 0,
+			"type": "StartStudy",
+			"time": "2025-03-04T08:11:23.091Z",
+			"after": "P0D",
+			"info": {}
+		},
+		{
+			"id": 0,
+			"currentTask": 0,
+			"type": "StartTask",
+			"time": "2025-03-04T08:11:23.091Z",
+			"after": "P0D",
+			"info": {
+				"task": "PrePhase"
+			}
+		},
+		{
+			"id": 1,
+			"currentTask": 0,
+			"type": "FinishTask",
+			"time": "2025-03-04T08:21:43.919Z",
+			"after": "PT10M20.828S",
+			"info": {
+				"task": "PrePhase"
+			}
+		},
+		{
+			"id": 2,
+			"currentTask": 1,
+			"type": "StartTask",
+			"time": "2025-03-04T08:21:43.919Z",
+			"after": "PT10M20.828S",
+			"info": {
+				"task": "Task C - Eight Schools"
+			}
+		},
+		{
+			"id": 3,
+			"currentTask": 1,
+			"type": "StartsInference",
+			"time": "2025-03-04T08:21:47.663Z",
+			"after": "PT10M24.572S",
+			"info": {}
+		},
+		{
+			"id": 4,
+			"currentTask": 1,
+			"type": "InferenceFinished",
+			"time": "2025-03-04T08:24:36.738Z",
+			"after": "PT13M13.647S",
+			"resolves": 3,
+			"info": {}
+		},
+		{
+			"id": 5,
+			"currentTask": 1,
+			"type": "DocumentationSrcUsed",
+			"time": "2025-03-04T08:31:44.348Z",
+			"after": "PT20M21.257S",
+			"info": {
+				"value": "pymc"
+			}
+		},
+		{
+			"id": 6,
+			"currentTask": 1,
+			"type": "Modelchanged",
+			"time": "2025-03-04T08:32:34.596Z",
+			"after": "PT21M11.505S",
+			"info": {
+				"value": "tune=500"
+			}
+		},
+		{
+			"id": 7,
+			"currentTask": 1,
+			"type": "DiscoversIssue",
+			"time": "2025-03-04T08:32:42.893Z",
+			"after": "PT21M19.802S",
+			"info": {
+				"task": "Task C - Eight Schools",
+				"issue": "Too small tune",
+				"issueId": 1
+			}
+		},
+		{
+			"id": 8,
+			"currentTask": 1,
+			"type": "Other",
+			"time": "2025-03-04T08:33:38.726Z",
+			"after": "PT22M15.635S",
+			"info": {
+				"value": "check tune 500"
+			}
+		},
+		{
+			"id": 9,
+			"currentTask": 1,
+			"type": "ResolvesIssue",
+			"time": "2025-03-04T08:33:47.864Z",
+			"after": "PT22M24.773S",
+			"info": {
+				"task": "Task C - Eight Schools",
+				"issue": "Too small tune",
+				"issueId": 1
+			}
+		},
+		{
+			"id": 10,
+			"currentTask": 1,
+			"type": "StartsInference",
+			"time": "2025-03-04T08:35:25.962Z",
+			"after": "PT24M2.871S",
+			"info": {}
+		},
+		{
+			"id": 11,
+			"currentTask": 1,
+			"type": "DocumentationSrcUsed",
+			"time": "2025-03-04T08:36:13.763Z",
+			"after": "PT24M50.672S",
+			"info": {
+				"value": "pymc"
+			}
+		},
+		{
+			"id": 12,
+			"currentTask": 1,
+			"type": "DocumentationSrcUsed",
+			"time": "2025-03-04T08:38:52.505Z",
+			"after": "PT27M29.414S",
+			"info": {
+				"value": "pymc"
+			}
+		},
+		{
+			"id": 13,
+			"currentTask": 1,
+			"type": "DocumentationSrcUsed",
+			"time": "2025-03-04T08:39:05.707Z",
+			"after": "PT27M42.616S",
+			"info": {
+				"value": "google"
+			}
+		},
+		{
+			"id": 14,
+			"currentTask": 1,
+			"type": "DocumentationSrcUsed",
+			"time": "2025-03-04T08:39:09.922Z",
+			"after": "PT27M46.831S",
+			"info": {
+				"value": "pymc"
+			}
+		},
+		{
+			"id": 15,
+			"currentTask": 1,
+			"type": "InferenceFinished",
+			"time": "2025-03-04T08:40:20.457Z",
+			"after": "PT28M57.366S",
+			"resolves": 10,
+			"info": {}
+		},
+		{
+			"id": 16,
+			"currentTask": 1,
+			"type": "DocumentationSrcUsed",
+			"time": "2025-03-04T08:40:23.248Z",
+			"after": "PT29M0.157S",
+			"info": {
+				"value": "pymc"
+			}
+		},
+		{
+			"id": 17,
+			"currentTask": 1,
+			"type": "PlotUsed",
+			"time": "2025-03-04T08:42:03.802Z",
+			"after": "PT30M40.711S",
+			"info": {
+				"value": "trace"
+			}
+		},
+		{
+			"id": 18,
+			"currentTask": 1,
+			"type": "DocumentationSrcUsed",
+			"time": "2025-03-04T08:43:31.393Z",
+			"after": "PT32M8.302S",
+			"info": {
+				"value": {
+					"type": "other",
+					"value": "ranknormalized rhat paper"
+				}
+			}
+		},
+		{
+			"id": 19,
+			"currentTask": 1,
+			"type": "DocumentationSrcUsed",
+			"time": "2025-03-04T08:44:16.865Z",
+			"after": "PT32M53.774S",
+			"info": {
+				"value": {
+					"type": "other",
+					"value": "avethari blog"
+				}
+			}
+		},
+		{
+			"id": 20,
+			"currentTask": 1,
+			"type": "DocumentationSrcUsed",
+			"time": "2025-03-04T08:45:53.200Z",
+			"after": "PT34M30.109S",
+			"info": {
+				"value": "pymc"
+			}
+		},
+		{
+			"id": 21,
+			"currentTask": 1,
+			"type": "Quote",
+			"time": "2025-03-04T08:47:38.587Z",
+			"after": "PT36M15.496S",
+			"info": {
+				"value": "I will need more time to findout more about the numbers"
+			}
+		},
+		{
+			"id": 22,
+			"currentTask": 1,
+			"type": "Quote",
+			"time": "2025-03-04T08:48:00.620Z",
+			"after": "PT36M37.529S",
+			"info": {
+				"value": "Maybe the problem is in the model but I couldn't find anything problematic there"
+			}
+		},
+		{
+			"id": 23,
+			"currentTask": 1,
+			"type": "FinishTask",
+			"time": "2025-03-04T08:48:37.891Z",
+			"after": "PT37M14.8S",
+			"info": {
+				"task": "Task C - Eight Schools"
+			}
+		},
+		{
+			"id": 24,
+			"currentTask": 2,
+			"type": "StartTask",
+			"time": "2025-03-04T08:48:37.891Z",
+			"after": "PT37M14.8S",
+			"info": {
+				"task": "Showcase Debugger"
+			}
+		},
+		{
+			"id": 25,
+			"currentTask": 2,
+			"type": "FinishTask",
+			"time": "2025-03-04T08:53:32.620Z",
+			"after": "PT42M9.529S",
+			"info": {
+				"task": "Showcase Debugger"
+			}
+		},
+		{
+			"id": 26,
+			"currentTask": 3,
+			"type": "StartTask",
+			"time": "2025-03-04T08:53:32.620Z",
+			"after": "PT42M9.529S",
+			"info": {
+				"task": "Task B - Rotello Heit"
+			}
+		},
+		{
+			"id": 27,
+			"currentTask": 3,
+			"type": "StartsInference",
+			"time": "2025-03-04T08:54:25.420Z",
+			"after": "PT43M2.329S",
+			"info": {}
+		},
+		{
+			"id": 28,
+			"currentTask": 3,
+			"type": "InferenceFinished",
+			"time": "2025-03-04T08:56:33.343Z",
+			"after": "PT45M10.252S",
+			"resolves": 27,
+			"info": {}
+		},
+		{
+			"id": 29,
+			"currentTask": 3,
+			"type": "DiscoversIssue",
+			"time": "2025-03-04T08:57:31.617Z",
+			"after": "PT46M8.526S",
+			"info": {
+				"task": "Task B - Rotello Heit",
+				"issue": "Model typo / unconnected RVs",
+				"issueId": 0
+			}
+		},
+		{
+			"id": 30,
+			"currentTask": 3,
+			"type": "DiscoversIssue",
+			"time": "2025-03-04T09:00:33.832Z",
+			"after": "PT49M10.741S",
+			"info": {
+				"task": "Task B - Rotello Heit",
+				"issue": "Step Scale too large",
+				"issueId": 1
+			}
+		},
+		{
+			"id": 31,
+			"currentTask": 3,
+			"type": "InferenceChanged",
+			"time": "2025-03-04T09:00:44.513Z",
+			"after": "PT49M21.422S",
+			"info": {
+				"value": "step_scale=0.5"
+			}
+		},
+		{
+			"id": 32,
+			"currentTask": 3,
+			"type": "ResolvesIssue",
+			"time": "2025-03-04T09:01:43.473Z",
+			"after": "PT50M20.382S",
+			"info": {
+				"task": "Task B - Rotello Heit",
+				"issue": "Step Scale too large",
+				"issueId": 1
+			}
+		},
+		{
+			"id": 33,
+			"currentTask": 3,
+			"type": "DiscoversIssue",
+			"time": "2025-03-04T09:02:07.671Z",
+			"after": "PT50M44.58S",
+			"info": {
+				"task": "Task B - Rotello Heit",
+				"issue": "Too small tune + sample size",
+				"issueId": 2
+			}
+		},
+		{
+			"id": 34,
+			"currentTask": 3,
+			"type": "ResolvesIssue",
+			"time": "2025-03-04T09:02:12.768Z",
+			"after": "PT50M49.677S",
+			"info": {
+				"task": "Task B - Rotello Heit",
+				"issue": "Too small tune + sample size",
+				"issueId": 2
+			}
+		},
+		{
+			"id": 35,
+			"currentTask": 3,
+			"type": "InferenceChanged",
+			"time": "2025-03-04T09:02:13.792Z",
+			"after": "PT50M50.701S",
+			"info": {
+				"value": "draws=3000, tune=1000"
+			}
+		},
+		{
+			"id": 36,
+			"currentTask": 3,
+			"type": "StartsInference",
+			"time": "2025-03-04T09:03:15.857Z",
+			"after": "PT51M52.766S",
+			"info": {}
+		},
+		{
+			"id": 37,
+			"currentTask": 3,
+			"type": "Quote",
+			"time": "2025-03-04T09:06:47.604Z",
+			"after": "PT55M24.513S",
+			"info": {
+				"value": "it actually tells you what to do and I think it works now"
+			}
+		},
+		{
+			"id": 38,
+			"currentTask": 3,
+			"type": "InferenceFinished",
+			"time": "2025-03-04T09:08:45.869Z",
+			"after": "PT57M22.778S",
+			"resolves": 36,
+			"info": {}
+		},
+		{
+			"id": 39,
+			"currentTask": 3,
+			"type": "Quote",
+			"time": "2025-03-04T09:08:30.183Z",
+			"after": "PT57M7.092S",
+			"info": {
+				"value": "maybe setting adapt_step_size to true would be even better"
+			}
+		},
+		{
+			"id": 40,
+			"currentTask": 3,
+			"type": "FinishTask",
+			"time": "2025-03-04T09:08:55.592Z",
+			"after": "PT57M32.501S",
+			"info": {
+				"task": "Task B - Rotello Heit"
+			}
+		},
+		{
+			"id": 41,
+			"currentTask": 4,
+			"type": "StartTask",
+			"time": "2025-03-04T09:08:55.592Z",
+			"after": "PT57M32.501S",
+			"info": {
+				"task": "Task A - Linear Regression"
+			}
+		},
+		{
+			"id": 42,
+			"currentTask": 4,
+			"type": "FinishTask",
+			"time": "2025-03-04T09:08:55.651Z",
+			"after": "PT57M32.56S",
+			"info": {
+				"task": "Task A - Linear Regression"
+			}
+		},
+		{
+			"id": 43,
+			"currentTask": 5,
+			"type": "FinishStudy",
+			"time": "2025-03-04T09:08:55.651Z",
+			"after": "PT57M32.56S",
+			"info": {}
+		}
+	],
+	"evaluator": "Reviewer1",
+	"studyEnd": "2025-03-04T09:08:55.651Z"
+}

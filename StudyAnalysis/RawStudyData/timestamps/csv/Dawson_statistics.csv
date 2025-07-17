@@ -1,0 +1,4 @@
+name,Task,order,Inference Count,Cancelled Inference Count,Mean Inference Time,Median Inference Time,Setup Issue Count,Total Setup Issue Duration,Removed Event Count,Number of Changes to Model,Number of Changes to Inference,Time to First Change,Time to First Inference,Number of Plots,Number of External Docs,Percentage of Solved Issues,Fully Solved (seconds),Total Task Time,First Issue Detected,First Issue Solved,Second Issue Detected,Second Issue Solved,Third Issue Detected,Third Issue Solved
+Dawson,C,1,2,0,231.78,231.78,0,0.00,0,1,0,650.677,3.744,1,9,33.33,0,1613.97,640,655,null,null,null,null
+Dawson,B,2,2,0,228.97,228.97,0,0.00,0,0,2,431.893,52.8,0,0,66.67,0,922.97,239,491,421,520,515,null
+Dawson,A,3,4,1,91.09,97.25,0,0.00,0,0,3,165.594,8.037,0,0,100.00,287.952,682.41,280,288,null,null,null,null

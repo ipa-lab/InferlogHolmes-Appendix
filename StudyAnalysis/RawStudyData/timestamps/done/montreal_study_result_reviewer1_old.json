@@ -1,0 +1,1853 @@
+{
+	"participant": "montreal",
+	"evaluator": "Reviewer1",
+	"studyStart": "2025-02-24T08:13:20.135Z",
+	"currentTask": 5,
+	"currentTaskStart": "2025-02-24T09:36:57.145Z",
+	"taskOrder": [
+		{
+			"name": "PrePhase",
+			"includesDebugger": false,
+			"todos": []
+		},
+		{
+			"name": "Task A - Linear Regression",
+			"includesDebugger": false,
+			"todos": [
+				"Step Scale too large"
+			]
+		},
+		{
+			"name": "Showcase Debugger",
+			"todos": []
+		},
+		{
+			"name": "Task B - Rotello Heit",
+			"includesDebugger": true,
+			"todos": [
+				"Model typo / unconnected RVs",
+				"Step Scale too large",
+				"Too small tune + sample size"
+			]
+		},
+		{
+			"name": "Task C - Eight Schools",
+			"includesDebugger": true,
+			"todos": [
+				"Reparameterize",
+				"Too small tune",
+				"(optional) disable autotuning"
+			]
+		}
+	],
+	"events": [
+		{
+			"id": 0,
+			"currentTask": 0,
+			"type": "StartStudy",
+			"time": "2025-02-24T08:13:20.135Z",
+			"after": "P0D",
+			"info": {}
+		},
+		{
+			"id": 0,
+			"currentTask": 0,
+			"type": "StartTask",
+			"time": "2025-02-24T08:13:20.135Z",
+			"after": "P0D",
+			"info": {
+				"task": "PrePhase"
+			}
+		},
+		{
+			"id": 1,
+			"currentTask": 0,
+			"type": "FinishTask",
+			"time": "2025-02-24T08:17:35.442Z",
+			"after": "PT4M15.307S",
+			"info": {
+				"task": "PrePhase"
+			}
+		},
+		{
+			"id": 2,
+			"currentTask": 1,
+			"type": "StartTask",
+			"time": "2025-02-24T08:17:35.442Z",
+			"after": "PT4M15.307S",
+			"info": {
+				"task": "Task A - Linear Regression"
+			}
+		},
+		{
+			"id": 3,
+			"currentTask": 1,
+			"type": "SetupIssues",
+			"time": "2025-02-24T08:18:09.451Z",
+			"after": "PT4M49.316S",
+			"info": {}
+		},
+		{
+			"id": 4,
+			"currentTask": 1,
+			"type": "SetupIssuesResolved",
+			"time": "2025-02-24T08:18:32.318Z",
+			"after": "PT5M12.183S",
+			"resolves": 3,
+			"info": {}
+		},
+		{
+			"id": 5,
+			"currentTask": 1,
+			"type": "StartsInference",
+			"time": "2025-02-24T08:20:27.547Z",
+			"after": "PT7M7.412S",
+			"info": {}
+		},
+		{
+			"id": 6,
+			"currentTask": 1,
+			"type": "InferenceFinished",
+			"time": "2025-02-24T08:21:42.875Z",
+			"after": "PT8M22.74S",
+			"resolves": 5,
+			"info": {}
+		},
+		{
+			"id": 7,
+			"currentTask": 1,
+			"type": "PlotsByHandStarted",
+			"time": "2025-02-24T08:22:26.164Z",
+			"after": "PT9M6.029S",
+			"info": {}
+		},
+		{
+			"id": 8,
+			"currentTask": 1,
+			"type": "PlotUsed",
+			"time": "2025-02-24T08:22:33.652Z",
+			"after": "PT9M13.517S",
+			"info": {
+				"value": {
+					"type": "other",
+					"value": "summary"
+				}
+			}
+		},
+		{
+			"id": 9,
+			"currentTask": 1,
+			"type": "PlotsByHandFinished",
+			"time": "2025-02-24T08:22:43.326Z",
+			"after": "PT9M23.191S",
+			"resolves": 7,
+			"info": {}
+		},
+		{
+			"id": 10,
+			"currentTask": 1,
+			"type": "PlotsByHandStarted",
+			"time": "2025-02-24T08:23:38.062Z",
+			"after": "PT10M17.927S",
+			"info": {}
+		},
+		{
+			"id": 11,
+			"currentTask": 1,
+			"type": "PlotUsed",
+			"time": "2025-02-24T08:23:46.005Z",
+			"after": "PT10M25.87S",
+			"info": {
+				"value": {
+					"type": "other",
+					"value": "posterior"
+				}
+			}
+		},
+		{
+			"id": 12,
+			"currentTask": 1,
+			"type": "PlotsByHandFinished",
+			"time": "2025-02-24T08:23:48.068Z",
+			"after": "PT10M27.933S",
+			"resolves": 10,
+			"info": {}
+		},
+		{
+			"id": 13,
+			"currentTask": 1,
+			"type": "UsesExternalDocumentationStarted",
+			"time": "2025-02-24T08:24:00.691Z",
+			"after": "PT10M40.556S",
+			"info": {}
+		},
+		{
+			"id": 14,
+			"currentTask": 1,
+			"type": "DocumentationSrcUsed",
+			"time": "2025-02-24T08:24:03.765Z",
+			"after": "PT10M43.63S",
+			"info": {
+				"value": "google"
+			}
+		},
+		{
+			"id": 15,
+			"currentTask": 1,
+			"type": "DocumentationSrcUsed",
+			"time": "2025-02-24T08:24:08.979Z",
+			"after": "PT10M48.844S",
+			"info": {
+				"value": "pymc"
+			}
+		},
+		{
+			"id": 16,
+			"currentTask": 1,
+			"type": "UsesExternalDocumentationFinished",
+			"time": "2025-02-24T08:24:15.304Z",
+			"after": "PT10M55.169S",
+			"resolves": 13,
+			"info": {}
+		},
+		{
+			"id": 17,
+			"currentTask": 1,
+			"type": "PlotsByHandStarted",
+			"time": "2025-02-24T08:24:16.929Z",
+			"after": "PT10M56.794S",
+			"info": {}
+		},
+		{
+			"id": 18,
+			"currentTask": 1,
+			"type": "PlotUsed",
+			"time": "2025-02-24T08:24:49.203Z",
+			"after": "PT11M29.068S",
+			"info": {
+				"value": {
+					"type": "other",
+					"value": "ppc"
+				}
+			}
+		},
+		{
+			"id": 19,
+			"currentTask": 1,
+			"type": "PlotsByHandFinished",
+			"time": "2025-02-24T08:24:50.038Z",
+			"after": "PT11M29.903S",
+			"resolves": 17,
+			"info": {}
+		},
+		{
+			"id": 20,
+			"currentTask": 1,
+			"type": "PlotsByHandStarted",
+			"time": "2025-02-24T08:25:20.498Z",
+			"after": "PT12M0.363S",
+			"info": {}
+		},
+		{
+			"id": 21,
+			"currentTask": 1,
+			"type": "PlotUsed",
+			"time": "2025-02-24T08:25:31.948Z",
+			"after": "PT12M11.813S",
+			"info": {
+				"value": {
+					"type": "other",
+					"value": "ppc"
+				}
+			}
+		},
+		{
+			"id": 22,
+			"currentTask": 1,
+			"type": "UsesExternalDocumentationStarted",
+			"time": "2025-02-24T08:27:54.955Z",
+			"after": "PT14M34.82S",
+			"info": {}
+		},
+		{
+			"id": 23,
+			"currentTask": 1,
+			"type": "DocumentationSrcUsed",
+			"time": "2025-02-24T08:27:57.634Z",
+			"after": "PT14M37.499S",
+			"info": {
+				"value": "pymc"
+			}
+		},
+		{
+			"id": 24,
+			"currentTask": 1,
+			"type": "UsesExternalDocumentationFinished",
+			"time": "2025-02-24T08:28:05.748Z",
+			"after": "PT14M45.613S",
+			"resolves": 22,
+			"info": {}
+		},
+		{
+			"id": 25,
+			"currentTask": 1,
+			"type": "PlotUsed",
+			"time": "2025-02-24T08:29:54.303Z",
+			"after": "PT16M34.168S",
+			"info": {
+				"value": "trace"
+			}
+		},
+		{
+			"id": 26,
+			"currentTask": 1,
+			"type": "PlotsByHandFinished",
+			"time": "2025-02-24T08:29:55.931Z",
+			"after": "PT16M35.796S",
+			"resolves": 20,
+			"info": {}
+		},
+		{
+			"id": 27,
+			"currentTask": 1,
+			"type": "Quote",
+			"time": "2025-02-24T08:30:42.285Z",
+			"after": "PT17M22.15S",
+			"info": {
+				"value": "I realize something is wrong but i cant say what"
+			}
+		},
+		{
+			"id": 28,
+			"currentTask": 1,
+			"type": "PlotsByHandStarted",
+			"time": "2025-02-24T08:31:10.999Z",
+			"after": "PT17M50.864S",
+			"info": {}
+		},
+		{
+			"id": 29,
+			"currentTask": 1,
+			"type": "PlotUsed",
+			"time": "2025-02-24T08:31:27.366Z",
+			"after": "PT18M7.231S",
+			"info": {
+				"value": {
+					"type": "other",
+					"value": "ppc"
+				}
+			}
+		},
+		{
+			"id": 30,
+			"currentTask": 1,
+			"type": "HelpReceived",
+			"time": "2025-02-24T08:31:50.183Z",
+			"after": "PT18M30.048S",
+			"info": {
+				"value": "import python matplotlib help"
+			}
+		},
+		{
+			"id": 31,
+			"currentTask": 1,
+			"type": "PlotUsed",
+			"time": "2025-02-24T08:32:30.356Z",
+			"after": "PT19M10.221S",
+			"info": {
+				"value": {
+					"type": "other",
+					"value": "ppc"
+				}
+			}
+		},
+		{
+			"id": 32,
+			"currentTask": 1,
+			"type": "PlotsByHandFinished",
+			"time": "2025-02-24T08:33:22.601Z",
+			"after": "PT20M2.466S",
+			"resolves": 28,
+			"info": {}
+		},
+		{
+			"id": 33,
+			"currentTask": 1,
+			"type": "UsesExternalDocumentationStarted",
+			"time": "2025-02-24T08:33:32.222Z",
+			"after": "PT20M12.087S",
+			"info": {}
+		},
+		{
+			"id": 34,
+			"currentTask": 1,
+			"type": "DocumentationSrcUsed",
+			"time": "2025-02-24T08:33:34.844Z",
+			"after": "PT20M14.709S",
+			"info": {
+				"value": "pymc"
+			}
+		},
+		{
+			"id": 35,
+			"currentTask": 1,
+			"type": "ActsOnIssue",
+			"time": "2025-02-24T08:34:30.833Z",
+			"after": "PT21M10.698S",
+			"info": {
+				"task": "Task A - Linear Regression",
+				"issue": "Step Scale too large",
+				"issueId": 0
+			}
+		},
+		{
+			"id": 36,
+			"currentTask": 1,
+			"type": "Other",
+			"time": "2025-02-24T08:34:59.275Z",
+			"after": "PT21M39.14S",
+			"info": {
+				"value": "tuning increased + nuts sampler used"
+			}
+		},
+		{
+			"id": 37,
+			"currentTask": 1,
+			"type": "UsesExternalDocumentationFinished",
+			"time": "2025-02-24T08:35:45.035Z",
+			"after": "PT22M24.9S",
+			"resolves": 33,
+			"info": {}
+		},
+		{
+			"id": 38,
+			"currentTask": 1,
+			"type": "HelpReceived",
+			"time": "2025-02-24T08:35:59.017Z",
+			"after": "PT22M38.882S",
+			"info": {
+				"value": "execute python file as whole"
+			}
+		},
+		{
+			"id": 39,
+			"currentTask": 1,
+			"type": "UsesExternalDocumentationStarted",
+			"time": "2025-02-24T08:37:31.533Z",
+			"after": "PT24M11.398S",
+			"info": {}
+		},
+		{
+			"id": 40,
+			"currentTask": 1,
+			"type": "DocumentationSrcUsed",
+			"time": "2025-02-24T08:37:34.625Z",
+			"after": "PT24M14.49S",
+			"info": {
+				"value": "google"
+			}
+		},
+		{
+			"id": 41,
+			"currentTask": 1,
+			"type": "DocumentationSrcUsed",
+			"time": "2025-02-24T08:37:42.344Z",
+			"after": "PT24M22.209S",
+			"info": {
+				"value": "pymc"
+			}
+		},
+		{
+			"id": 42,
+			"currentTask": 1,
+			"type": "UsesExternalDocumentationFinished",
+			"time": "2025-02-24T08:37:59.834Z",
+			"after": "PT24M39.699S",
+			"resolves": 39,
+			"info": {}
+		},
+		{
+			"id": 43,
+			"currentTask": 1,
+			"type": "StartsInference",
+			"time": "2025-02-24T08:38:26.339Z",
+			"after": "PT25M6.204S",
+			"info": {}
+		},
+		{
+			"id": 44,
+			"currentTask": 1,
+			"type": "PythonError",
+			"time": "2025-02-24T08:38:50.308Z",
+			"after": "PT25M30.173S",
+			"resolves": 43,
+			"info": {}
+		},
+		{
+			"id": 45,
+			"currentTask": 1,
+			"type": "StartsInference",
+			"time": "2025-02-24T08:38:53.304Z",
+			"after": "PT25M33.169S",
+			"info": {}
+		},
+		{
+			"id": 46,
+			"currentTask": 1,
+			"type": "InferenceCancelled",
+			"time": "2025-02-24T08:39:04.254Z",
+			"after": "PT25M44.119S",
+			"resolves": 45,
+			"info": {}
+		},
+		{
+			"id": 47,
+			"currentTask": 1,
+			"type": "StartsInference",
+			"time": "2025-02-24T08:39:09.368Z",
+			"after": "PT25M49.233S",
+			"info": {}
+		},
+		{
+			"id": 48,
+			"currentTask": 1,
+			"type": "InferenceFinished",
+			"time": "2025-02-24T08:40:09.188Z",
+			"after": "PT26M49.053S",
+			"resolves": 47,
+			"info": {}
+		},
+		{
+			"id": 49,
+			"currentTask": 1,
+			"type": "Quote",
+			"time": "2025-02-24T08:40:29.850Z",
+			"after": "PT27M9.715S",
+			"info": {
+				"value": "I have always used nuts before"
+			}
+		},
+		{
+			"id": 50,
+			"currentTask": 1,
+			"type": "Quote",
+			"time": "2025-02-24T08:40:41.726Z",
+			"after": "PT27M21.591S",
+			"info": {
+				"value": "It looks way better now"
+			}
+		},
+		{
+			"id": 51,
+			"currentTask": 1,
+			"type": "UsesExternalDocumentationStarted",
+			"time": "2025-02-24T08:40:49.779Z",
+			"after": "PT27M29.644S",
+			"info": {}
+		},
+		{
+			"id": 52,
+			"currentTask": 1,
+			"type": "DocumentationSrcUsed",
+			"time": "2025-02-24T08:40:52.727Z",
+			"after": "PT27M32.592S",
+			"info": {
+				"value": "pymc"
+			}
+		},
+		{
+			"id": 53,
+			"currentTask": 1,
+			"type": "UsesExternalDocumentationFinished",
+			"time": "2025-02-24T08:40:54.647Z",
+			"after": "PT27M34.512S",
+			"resolves": 51,
+			"info": {}
+		},
+		{
+			"id": 54,
+			"currentTask": 1,
+			"type": "PlotsByHandStarted",
+			"time": "2025-02-24T08:40:59.290Z",
+			"after": "PT27M39.155S",
+			"info": {}
+		},
+		{
+			"id": 55,
+			"currentTask": 1,
+			"type": "PlotUsed",
+			"time": "2025-02-24T08:41:07.121Z",
+			"after": "PT27M46.986S",
+			"info": {
+				"value": {
+					"type": "other",
+					"value": "summary"
+				}
+			}
+		},
+		{
+			"id": 56,
+			"currentTask": 1,
+			"type": "PlotsByHandFinished",
+			"time": "2025-02-24T08:41:08.226Z",
+			"after": "PT27M48.091S",
+			"resolves": 54,
+			"info": {}
+		},
+		{
+			"id": 57,
+			"currentTask": 1,
+			"type": "ActsOnIssue",
+			"time": "2025-02-24T08:41:34.851Z",
+			"after": "PT28M14.716S",
+			"info": {
+				"task": "Task A - Linear Regression",
+				"issue": "Step Scale too large",
+				"issueId": 0
+			}
+		},
+		{
+			"id": 58,
+			"currentTask": 1,
+			"type": "StartsInference",
+			"time": "2025-02-24T08:41:39.563Z",
+			"after": "PT28M19.428S",
+			"info": {}
+		},
+		{
+			"id": 59,
+			"currentTask": 1,
+			"type": "UsesExternalDocumentationStarted",
+			"time": "2025-02-24T08:42:40.168Z",
+			"after": "PT29M20.033S",
+			"info": {}
+		},
+		{
+			"id": 60,
+			"currentTask": 1,
+			"type": "DocumentationSrcUsed",
+			"time": "2025-02-24T08:42:43.103Z",
+			"after": "PT29M22.968S",
+			"info": {
+				"value": "google"
+			}
+		},
+		{
+			"id": 61,
+			"currentTask": 1,
+			"type": "DocumentationSrcUsed",
+			"time": "2025-02-24T08:42:46.132Z",
+			"after": "PT29M25.997S",
+			"info": {
+				"value": "pymc"
+			}
+		},
+		{
+			"id": 62,
+			"currentTask": 1,
+			"type": "UsesExternalDocumentationFinished",
+			"time": "2025-02-24T08:42:50.721Z",
+			"after": "PT29M30.586S",
+			"resolves": 59,
+			"info": {}
+		},
+		{
+			"id": 63,
+			"currentTask": 1,
+			"type": "UsesExternalDocumentationStarted",
+			"time": "2025-02-24T08:43:23.976Z",
+			"after": "PT30M3.841S",
+			"info": {}
+		},
+		{
+			"id": 64,
+			"currentTask": 1,
+			"type": "DocumentationSrcUsed",
+			"time": "2025-02-24T08:43:28.204Z",
+			"after": "PT30M8.069S",
+			"info": {
+				"value": "google"
+			}
+		},
+		{
+			"id": 65,
+			"currentTask": 1,
+			"type": "DocumentationSrcUsed",
+			"time": "2025-02-24T08:43:31.454Z",
+			"after": "PT30M11.319S",
+			"info": {
+				"value": "pymc"
+			}
+		},
+		{
+			"id": 66,
+			"currentTask": 1,
+			"type": "UsesExternalDocumentationFinished",
+			"time": "2025-02-24T08:43:32.813Z",
+			"after": "PT30M12.678S",
+			"resolves": 63,
+			"info": {}
+		},
+		{
+			"id": 67,
+			"currentTask": 1,
+			"type": "InferenceFinished",
+			"time": "2025-02-24T08:43:39.368Z",
+			"after": "PT30M19.233S",
+			"resolves": 58,
+			"info": {}
+		},
+		{
+			"id": 68,
+			"currentTask": 1,
+			"type": "ThinksResolvedIssue",
+			"time": "2025-02-24T08:43:46.388Z",
+			"after": "PT30M26.253S",
+			"info": {
+				"task": "Task A - Linear Regression",
+				"issue": "Step Scale too large",
+				"issueId": 0
+			}
+		},
+		{
+			"id": 69,
+			"currentTask": 1,
+			"type": "ResolvesIssue",
+			"time": "2025-02-24T08:44:09.177Z",
+			"after": "PT30M49.042S",
+			"info": {
+				"task": "Task A - Linear Regression",
+				"issue": "Step Scale too large",
+				"issueId": 0
+			}
+		},
+		{
+			"id": 70,
+			"currentTask": 1,
+			"type": "HelpReceived",
+			"time": "2025-02-24T08:44:33.512Z",
+			"after": "PT31M13.377S",
+			"info": {
+				"value": "prediction sample size reduction for time"
+			}
+		},
+		{
+			"id": 71,
+			"currentTask": 1,
+			"type": "UsesExternalDocumentationStarted",
+			"time": "2025-02-24T08:45:11.243Z",
+			"after": "PT31M51.108S",
+			"info": {}
+		},
+		{
+			"id": 72,
+			"currentTask": 1,
+			"type": "DocumentationSrcUsed",
+			"time": "2025-02-24T08:45:14.307Z",
+			"after": "PT31M54.172S",
+			"info": {
+				"value": "pymc"
+			}
+		},
+		{
+			"id": 73,
+			"currentTask": 1,
+			"type": "DocumentationSrcUsed",
+			"time": "2025-02-24T08:45:22.698Z",
+			"after": "PT32M2.563S",
+			"info": {
+				"value": "google"
+			}
+		},
+		{
+			"id": 74,
+			"currentTask": 1,
+			"type": "DocumentationSrcUsed",
+			"time": "2025-02-24T08:45:25.861Z",
+			"after": "PT32M5.726S",
+			"info": {
+				"value": "pymc"
+			}
+		},
+		{
+			"id": 75,
+			"currentTask": 1,
+			"type": "DocumentationSrcUsed",
+			"time": "2025-02-24T08:45:32.774Z",
+			"after": "PT32M12.639S",
+			"info": {
+				"value": {
+					"type": "other",
+					"value": "arviz"
+				}
+			}
+		},
+		{
+			"id": 76,
+			"currentTask": 1,
+			"type": "UsesExternalDocumentationFinished",
+			"time": "2025-02-24T08:45:38.679Z",
+			"after": "PT32M18.544S",
+			"resolves": 71,
+			"info": {}
+		},
+		{
+			"id": 77,
+			"currentTask": 1,
+			"type": "PlotsByHandStarted",
+			"time": "2025-02-24T08:45:41.008Z",
+			"after": "PT32M20.873S",
+			"info": {}
+		},
+		{
+			"id": 78,
+			"currentTask": 1,
+			"type": "PlotUsed",
+			"time": "2025-02-24T08:46:02.563Z",
+			"after": "PT32M42.428S",
+			"info": {
+				"value": {
+					"type": "other",
+					"value": "ppc"
+				}
+			}
+		},
+		{
+			"id": 79,
+			"currentTask": 1,
+			"type": "PlotsByHandFinished",
+			"time": "2025-02-24T08:46:22.678Z",
+			"after": "PT33M2.543S",
+			"resolves": 77,
+			"info": {}
+		},
+		{
+			"id": 80,
+			"currentTask": 1,
+			"type": "Quote",
+			"time": "2025-02-24T08:46:33.535Z",
+			"after": "PT33M13.4S",
+			"info": {
+				"value": "noch viel variation"
+			}
+		},
+		{
+			"id": 81,
+			"currentTask": 1,
+			"type": "ThinksResolvedIssue",
+			"time": "2025-02-24T08:47:03.775Z",
+			"after": "PT33M43.64S",
+			"info": {
+				"task": "Task A - Linear Regression",
+				"issue": "Step Scale too large",
+				"issueId": 0
+			}
+		},
+		{
+			"id": 82,
+			"currentTask": 1,
+			"type": "DiscoversIssue",
+			"time": "2025-02-24T08:47:15.149Z",
+			"after": "PT33M55.014S",
+			"info": {
+				"task": "Task A - Linear Regression",
+				"issue": "Step Scale too large",
+				"issueId": 0
+			}
+		},
+		{
+			"id": 83,
+			"currentTask": 1,
+			"type": "FinishTask",
+			"time": "2025-02-24T08:47:30.475Z",
+			"after": "PT34M10.34S",
+			"info": {
+				"task": "Task A - Linear Regression"
+			}
+		},
+		{
+			"id": 84,
+			"currentTask": 2,
+			"type": "StartTask",
+			"time": "2025-02-24T08:47:30.475Z",
+			"after": "PT34M10.34S",
+			"info": {
+				"task": "Showcase Debugger"
+			}
+		},
+		{
+			"id": 85,
+			"currentTask": 2,
+			"type": "FinishTask",
+			"time": "2025-02-24T08:51:31.564Z",
+			"after": "PT38M11.429S",
+			"info": {
+				"task": "Showcase Debugger"
+			}
+		},
+		{
+			"id": 86,
+			"currentTask": 3,
+			"type": "StartTask",
+			"time": "2025-02-24T08:51:31.564Z",
+			"after": "PT38M11.429S",
+			"info": {
+				"task": "Task B - Rotello Heit"
+			}
+		},
+		{
+			"id": 87,
+			"currentTask": 3,
+			"type": "Other",
+			"time": "2025-02-24T08:52:56.050Z",
+			"after": "PT39M35.915S",
+			"info": {
+				"value": "Im graph fehlt die funktion für deterministic variables"
+			}
+		},
+		{
+			"id": 88,
+			"currentTask": 3,
+			"type": "UsesExternalDocumentationStarted",
+			"time": "2025-02-24T08:53:46.179Z",
+			"after": "PT40M26.044S",
+			"info": {}
+		},
+		{
+			"id": 89,
+			"currentTask": 3,
+			"type": "DocumentationSrcUsed",
+			"time": "2025-02-24T08:53:50.346Z",
+			"after": "PT40M30.211S",
+			"info": {
+				"value": "google"
+			}
+		},
+		{
+			"id": 90,
+			"currentTask": 3,
+			"type": "UsesExternalDocumentationFinished",
+			"time": "2025-02-24T08:53:53.352Z",
+			"after": "PT40M33.217S",
+			"resolves": 88,
+			"info": {}
+		},
+		{
+			"id": 91,
+			"currentTask": 3,
+			"type": "PlotsByHandStarted",
+			"time": "2025-02-24T08:54:07.873Z",
+			"after": "PT40M47.738S",
+			"info": {}
+		},
+		{
+			"id": 92,
+			"currentTask": 3,
+			"type": "PlotUsed",
+			"time": "2025-02-24T08:54:16.630Z",
+			"after": "PT40M56.495S",
+			"info": {
+				"value": {
+					"type": "other",
+					"value": "print data"
+				}
+			}
+		},
+		{
+			"id": 93,
+			"currentTask": 3,
+			"type": "PlotsByHandFinished",
+			"time": "2025-02-24T08:54:41.429Z",
+			"after": "PT41M21.294S",
+			"resolves": 91,
+			"info": {}
+		},
+		{
+			"id": 94,
+			"currentTask": 3,
+			"type": "PlotsByHandStarted",
+			"time": "2025-02-24T08:55:17.442Z",
+			"after": "PT41M57.307S",
+			"info": {}
+		},
+		{
+			"id": 95,
+			"currentTask": 3,
+			"type": "PlotUsed",
+			"time": "2025-02-24T08:55:39.253Z",
+			"after": "PT42M19.118S",
+			"info": {
+				"value": {
+					"type": "other",
+					"value": "print data"
+				}
+			}
+		},
+		{
+			"id": 96,
+			"currentTask": 3,
+			"type": "PlotsByHandFinished",
+			"time": "2025-02-24T08:55:42.568Z",
+			"after": "PT42M22.433S",
+			"resolves": 94,
+			"info": {}
+		},
+		{
+			"id": 97,
+			"currentTask": 3,
+			"type": "StartsInference",
+			"time": "2025-02-24T08:56:22.710Z",
+			"after": "PT43M2.575S",
+			"info": {}
+		},
+		{
+			"id": 98,
+			"currentTask": 3,
+			"type": "UsesDebugger",
+			"time": "2025-02-24T08:57:04.548Z",
+			"after": "PT43M44.413S",
+			"info": {}
+		},
+		{
+			"id": 99,
+			"currentTask": 3,
+			"type": "HelpReceived",
+			"time": "2025-02-24T08:57:14.593Z",
+			"after": "PT43M54.458S",
+			"info": {
+				"value": "burnin is tune"
+			}
+		},
+		{
+			"id": 100,
+			"currentTask": 3,
+			"type": "InferenceFinished",
+			"time": "2025-02-24T08:58:08.516Z",
+			"after": "PT44M48.381S",
+			"resolves": 97,
+			"info": {}
+		},
+		{
+			"id": 101,
+			"currentTask": 3,
+			"type": "DiscoversIssue",
+			"time": "2025-02-24T08:58:59.188Z",
+			"after": "PT45M39.053S",
+			"info": {
+				"task": "Task B - Rotello Heit",
+				"issue": "Step Scale too large",
+				"issueId": 1
+			}
+		},
+		{
+			"id": 102,
+			"currentTask": 3,
+			"type": "ActsOnIssue",
+			"time": "2025-02-24T08:59:02.703Z",
+			"after": "PT45M42.568S",
+			"info": {
+				"task": "Task B - Rotello Heit",
+				"issue": "Step Scale too large",
+				"issueId": 1
+			}
+		},
+		{
+			"id": 103,
+			"currentTask": 3,
+			"type": "UsesDebuggerFinished",
+			"time": "2025-02-24T08:59:13.099Z",
+			"after": "PT45M52.964S",
+			"resolves": 98,
+			"info": {}
+		},
+		{
+			"id": 104,
+			"currentTask": 3,
+			"type": "UsesExternalDocumentationStarted",
+			"time": "2025-02-24T08:59:14.009Z",
+			"after": "PT45M53.874S",
+			"info": {}
+		},
+		{
+			"id": 105,
+			"currentTask": 3,
+			"type": "DocumentationSrcUsed",
+			"time": "2025-02-24T08:59:18.844Z",
+			"after": "PT45M58.709S",
+			"info": {
+				"value": "google"
+			}
+		},
+		{
+			"id": 106,
+			"currentTask": 3,
+			"type": "DocumentationSrcUsed",
+			"time": "2025-02-24T08:59:31.282Z",
+			"after": "PT46M11.147S",
+			"info": {
+				"value": {
+					"type": "other",
+					"value": "stackexchange"
+				}
+			}
+		},
+		{
+			"id": 107,
+			"currentTask": 3,
+			"type": "UsesExternalDocumentationFinished",
+			"time": "2025-02-24T08:59:43.514Z",
+			"after": "PT46M23.379S",
+			"resolves": 104,
+			"info": {}
+		},
+		{
+			"id": 108,
+			"currentTask": 3,
+			"type": "UsesDebugger",
+			"time": "2025-02-24T08:59:45.518Z",
+			"after": "PT46M25.383S",
+			"info": {}
+		},
+		{
+			"id": 109,
+			"currentTask": 3,
+			"type": "StartsInference",
+			"time": "2025-02-24T08:59:51.416Z",
+			"after": "PT46M31.281S",
+			"info": {}
+		},
+		{
+			"id": 110,
+			"currentTask": 3,
+			"type": "DiscoversIssue",
+			"time": "2025-02-24T09:00:12.599Z",
+			"after": "PT46M52.464S",
+			"info": {
+				"task": "Task B - Rotello Heit",
+				"issue": "Too small tune + sample size",
+				"issueId": 2
+			}
+		},
+		{
+			"id": 111,
+			"currentTask": 3,
+			"type": "ActsOnIssue",
+			"time": "2025-02-24T09:00:16.182Z",
+			"after": "PT46M56.047S",
+			"info": {
+				"task": "Task B - Rotello Heit",
+				"issue": "Too small tune + sample size",
+				"issueId": 2
+			}
+		},
+		{
+			"id": 112,
+			"currentTask": 3,
+			"type": "InferenceCancelled",
+			"time": "2025-02-24T09:00:26.265Z",
+			"after": "PT47M6.13S",
+			"resolves": 109,
+			"info": {}
+		},
+		{
+			"id": 113,
+			"currentTask": 3,
+			"type": "StartsInference",
+			"time": "2025-02-24T09:00:27.112Z",
+			"after": "PT47M6.977S",
+			"info": {}
+		},
+		{
+			"id": 114,
+			"currentTask": 3,
+			"type": "UsesExternalDocumentationStarted",
+			"time": "2025-02-24T09:00:41.047Z",
+			"after": "PT47M20.912S",
+			"info": {}
+		},
+		{
+			"id": 115,
+			"currentTask": 3,
+			"type": "UsesDebuggerFinished",
+			"time": "2025-02-24T09:00:42.996Z",
+			"after": "PT47M22.861S",
+			"resolves": 108,
+			"info": {}
+		},
+		{
+			"id": 116,
+			"currentTask": 3,
+			"type": "DocumentationSrcUsed",
+			"time": "2025-02-24T09:00:47.899Z",
+			"after": "PT47M27.764S",
+			"info": {
+				"value": "google"
+			}
+		},
+		{
+			"id": 117,
+			"currentTask": 3,
+			"type": "DocumentationSrcUsed",
+			"time": "2025-02-24T09:00:57.095Z",
+			"after": "PT47M36.96S",
+			"info": {
+				"value": {
+					"type": "other",
+					"value": "stackexchange"
+				}
+			}
+		},
+		{
+			"id": 118,
+			"currentTask": 3,
+			"type": "UsesExternalDocumentationFinished",
+			"time": "2025-02-24T09:01:10.834Z",
+			"after": "PT47M50.699S",
+			"resolves": 114,
+			"info": {}
+		},
+		{
+			"id": 119,
+			"currentTask": 3,
+			"type": "UsesDebugger",
+			"time": "2025-02-24T09:01:28.341Z",
+			"after": "PT48M8.206S",
+			"info": {}
+		},
+		{
+			"id": 120,
+			"currentTask": 3,
+			"type": "HelpReceived",
+			"time": "2025-02-24T09:01:34.512Z",
+			"after": "PT48M14.377S",
+			"info": {
+				"value": "update warnings in debugger"
+			}
+		},
+		{
+			"id": 121,
+			"currentTask": 3,
+			"type": "UsesExternalDocumentationStarted",
+			"time": "2025-02-24T09:02:39.920Z",
+			"after": "PT49M19.785S",
+			"info": {}
+		},
+		{
+			"id": 122,
+			"currentTask": 3,
+			"type": "UsesExternalDocumentationFinished",
+			"time": "2025-02-24T09:02:47.946Z",
+			"after": "PT49M27.811S",
+			"resolves": 121,
+			"info": {}
+		},
+		{
+			"id": 123,
+			"currentTask": 3,
+			"type": "HelpReceived",
+			"time": "2025-02-24T09:03:29.073Z",
+			"after": "PT50M8.938S",
+			"info": {
+				"value": "10k samples includes tune"
+			}
+		},
+		{
+			"id": 124,
+			"currentTask": 3,
+			"type": "InferenceFinished",
+			"time": "2025-02-24T09:04:26.771Z",
+			"after": "PT51M6.636S",
+			"resolves": 113,
+			"info": {}
+		},
+		{
+			"id": 125,
+			"currentTask": 3,
+			"type": "ResolvesIssue",
+			"time": "2025-02-24T09:04:32.331Z",
+			"after": "PT51M12.196S",
+			"info": {
+				"task": "Task B - Rotello Heit",
+				"issue": "Step Scale too large",
+				"issueId": 1
+			}
+		},
+		{
+			"id": 126,
+			"currentTask": 3,
+			"type": "ResolvesIssue",
+			"time": "2025-02-24T09:04:33.496Z",
+			"after": "PT51M13.361S",
+			"info": {
+				"task": "Task B - Rotello Heit",
+				"issue": "Too small tune + sample size",
+				"issueId": 2
+			}
+		},
+		{
+			"id": 127,
+			"currentTask": 3,
+			"type": "UsesDebuggerFinished",
+			"time": "2025-02-24T09:04:43.945Z",
+			"after": "PT51M23.81S",
+			"resolves": 119,
+			"info": {}
+		},
+		{
+			"id": 128,
+			"currentTask": 3,
+			"type": "FinishTask",
+			"time": "2025-02-24T09:04:47.260Z",
+			"after": "PT51M27.125S",
+			"info": {
+				"task": "Task B - Rotello Heit"
+			}
+		},
+		{
+			"id": 129,
+			"currentTask": 4,
+			"type": "StartTask",
+			"time": "2025-02-24T09:04:47.260Z",
+			"after": "PT51M27.125S",
+			"info": {
+				"task": "Task C - Eight Schools"
+			}
+		},
+		{
+			"id": 130,
+			"currentTask": 4,
+			"type": "Other",
+			"time": "2025-02-24T09:06:31.638Z",
+			"after": "PT53M11.503S",
+			"info": {
+				"value": "knows eight schools model from examples"
+			}
+		},
+		{
+			"id": 131,
+			"currentTask": 4,
+			"type": "UsesExternalDocumentationStarted",
+			"time": "2025-02-24T09:06:44.937Z",
+			"after": "PT53M24.802S",
+			"info": {}
+		},
+		{
+			"id": 132,
+			"currentTask": 4,
+			"type": "DocumentationSrcUsed",
+			"time": "2025-02-24T09:06:49.408Z",
+			"after": "PT53M29.273S",
+			"info": {
+				"value": "google"
+			}
+		},
+		{
+			"id": 133,
+			"currentTask": 4,
+			"type": "DocumentationSrcUsed",
+			"time": "2025-02-24T09:06:55.400Z",
+			"after": "PT53M35.265S",
+			"info": {
+				"value": "pymc"
+			}
+		},
+		{
+			"id": 134,
+			"currentTask": 4,
+			"type": "UsesExternalDocumentationFinished",
+			"time": "2025-02-24T09:07:28.190Z",
+			"after": "PT54M8.055S",
+			"resolves": 131,
+			"info": {}
+		},
+		{
+			"id": 135,
+			"currentTask": 4,
+			"type": "Other",
+			"time": "2025-02-24T09:08:33.439Z",
+			"after": "PT55M13.304S",
+			"info": {
+				"value": "missing shape in graph plot"
+			}
+		},
+		{
+			"id": 136,
+			"currentTask": 4,
+			"type": "UsesExternalDocumentationStarted",
+			"time": "2025-02-24T09:08:45.880Z",
+			"after": "PT55M25.745S",
+			"info": {}
+		},
+		{
+			"id": 137,
+			"currentTask": 4,
+			"type": "DocumentationSrcUsed",
+			"time": "2025-02-24T09:08:49.869Z",
+			"after": "PT55M29.734S",
+			"info": {
+				"value": "google"
+			}
+		},
+		{
+			"id": 138,
+			"currentTask": 4,
+			"type": "DocumentationSrcUsed",
+			"time": "2025-02-24T09:08:53.507Z",
+			"after": "PT55M33.372S",
+			"info": {
+				"value": "pymc"
+			}
+		},
+		{
+			"id": 139,
+			"currentTask": 4,
+			"type": "UsesExternalDocumentationFinished",
+			"time": "2025-02-24T09:08:55.327Z",
+			"after": "PT55M35.192S",
+			"resolves": 136,
+			"info": {}
+		},
+		{
+			"id": 140,
+			"currentTask": 4,
+			"type": "StartsInference",
+			"time": "2025-02-24T09:09:16.763Z",
+			"after": "PT55M56.628S",
+			"info": {}
+		},
+		{
+			"id": 141,
+			"currentTask": 4,
+			"type": "InferenceCancelled",
+			"time": "2025-02-24T09:09:18.225Z",
+			"after": "PT55M58.09S",
+			"resolves": 140,
+			"info": {}
+		},
+		{
+			"id": 142,
+			"currentTask": 4,
+			"type": "PlotsByHandStarted",
+			"time": "2025-02-24T09:09:33.560Z",
+			"after": "PT56M13.425S",
+			"info": {}
+		},
+		{
+			"id": 143,
+			"currentTask": 4,
+			"type": "PlotUsed",
+			"time": "2025-02-24T09:09:44.124Z",
+			"after": "PT56M23.989S",
+			"info": {
+				"value": "model graph"
+			}
+		},
+		{
+			"id": 144,
+			"currentTask": 4,
+			"type": "PlotsByHandFinished",
+			"time": "2025-02-24T09:10:19.964Z",
+			"after": "PT56M59.829S",
+			"resolves": 142,
+			"info": {}
+		},
+		{
+			"id": 145,
+			"currentTask": 4,
+			"type": "StartsInference",
+			"time": "2025-02-24T09:10:56.727Z",
+			"after": "PT57M36.592S",
+			"info": {}
+		},
+		{
+			"id": 146,
+			"currentTask": 4,
+			"type": "DiscoversIssue",
+			"time": "2025-02-24T09:11:26.796Z",
+			"after": "PT58M6.661S",
+			"info": {
+				"task": "Task C - Eight Schools",
+				"issue": "Too small tune",
+				"issueId": 1
+			}
+		},
+		{
+			"id": 147,
+			"currentTask": 4,
+			"type": "ActsOnIssue",
+			"time": "2025-02-24T09:11:31.268Z",
+			"after": "PT58M11.133S",
+			"info": {
+				"task": "Task C - Eight Schools",
+				"issue": "Too small tune",
+				"issueId": 1
+			}
+		},
+		{
+			"id": 148,
+			"currentTask": 4,
+			"type": "InferenceCancelled",
+			"time": "2025-02-24T09:11:37.261Z",
+			"after": "PT58M17.126S",
+			"resolves": 145,
+			"info": {}
+		},
+		{
+			"id": 149,
+			"currentTask": 4,
+			"type": "StartsInference",
+			"time": "2025-02-24T09:11:38.175Z",
+			"after": "PT58M18.04S",
+			"info": {}
+		},
+		{
+			"id": 150,
+			"currentTask": 4,
+			"type": "Quote",
+			"time": "2025-02-24T09:11:59.901Z",
+			"after": "PT58M39.766S",
+			"info": {
+				"value": "I like that i see the tuning trace as well"
+			}
+		},
+		{
+			"id": 151,
+			"currentTask": 4,
+			"type": "DiscoversIssue",
+			"time": "2025-02-24T09:13:48.482Z",
+			"after": "PT1H28.347S",
+			"info": {
+				"task": "Task C - Eight Schools",
+				"issue": "Reparameterize",
+				"issueId": 0
+			}
+		},
+		{
+			"id": 152,
+			"currentTask": 4,
+			"type": "Quote",
+			"time": "2025-02-24T09:13:57.239Z",
+			"after": "PT1H37.104S",
+			"info": {
+				"value": "doesnt understnd reparameterize help"
+			}
+		},
+		{
+			"id": 153,
+			"currentTask": 4,
+			"type": "InferenceFinished",
+			"time": "2025-02-24T09:14:49.338Z",
+			"after": "PT1H1M29.203S",
+			"resolves": 149,
+			"info": {}
+		},
+		{
+			"id": 154,
+			"currentTask": 4,
+			"type": "DiscoversIssue",
+			"time": "2025-02-24T09:15:45.222Z",
+			"after": "PT1H2M25.087S",
+			"info": {
+				"task": "Task C - Eight Schools",
+				"issue": "(optional) disable autotuning",
+				"issueId": 2
+			}
+		},
+		{
+			"id": 155,
+			"currentTask": 4,
+			"type": "StartsInference",
+			"time": "2025-02-24T09:15:51.438Z",
+			"after": "PT1H2M31.303S",
+			"info": {}
+		},
+		{
+			"id": 156,
+			"currentTask": 4,
+			"type": "Quote",
+			"time": "2025-02-24T09:18:13.262Z",
+			"after": "PT1H4M53.127S",
+			"info": {
+				"value": "I dont understand the rank plots"
+			}
+		},
+		{
+			"id": 157,
+			"currentTask": 4,
+			"type": "InferenceCancelled",
+			"time": "2025-02-24T09:19:38.994Z",
+			"after": "PT1H6M18.859S",
+			"resolves": 155,
+			"info": {}
+		},
+		{
+			"id": 158,
+			"currentTask": 4,
+			"type": "StartsInference",
+			"time": "2025-02-24T09:19:40.362Z",
+			"after": "PT1H6M20.227S",
+			"info": {}
+		},
+		{
+			"id": 159,
+			"currentTask": 4,
+			"type": "ActsOnIssue",
+			"time": "2025-02-24T09:19:44.456Z",
+			"after": "PT1H6M24.321S",
+			"info": {
+				"task": "Task C - Eight Schools",
+				"issue": "Reparameterize",
+				"issueId": 0
+			}
+		},
+		{
+			"id": 160,
+			"currentTask": 4,
+			"type": "PythonError",
+			"time": "2025-02-24T09:19:46.113Z",
+			"after": "PT1H6M25.978S",
+			"resolves": 158,
+			"info": {}
+		},
+		{
+			"id": 161,
+			"currentTask": 4,
+			"type": "Other",
+			"time": "2025-02-24T09:19:38.033Z",
+			"after": "PT1H6M17.898S",
+			"info": {
+				"value": "missinterpreted the warning, might not recover"
+			}
+		},
+		{
+			"id": 162,
+			"currentTask": 4,
+			"type": "StartsInference",
+			"time": "2025-02-24T09:21:57.201Z",
+			"after": "PT1H8M37.066S",
+			"info": {}
+		},
+		{
+			"id": 163,
+			"currentTask": 4,
+			"type": "UsesExternalDocumentationStarted",
+			"time": "2025-02-24T09:22:17.943Z",
+			"after": "PT1H8M57.808S",
+			"info": {}
+		},
+		{
+			"id": 164,
+			"currentTask": 4,
+			"type": "UsesExternalDocumentationFinished",
+			"time": "2025-02-24T09:22:20.979Z",
+			"after": "PT1H9M0.844S",
+			"resolves": 163,
+			"info": {}
+		},
+		{
+			"id": 165,
+			"currentTask": 4,
+			"type": "ResolvesIssue",
+			"time": "2025-02-24T09:23:26.558Z",
+			"after": "PT1H10M6.423S",
+			"info": {
+				"task": "Task C - Eight Schools",
+				"issue": "(optional) disable autotuning",
+				"issueId": 2
+			}
+		},
+		{
+			"id": 166,
+			"currentTask": 4,
+			"type": "ResolvesIssue",
+			"time": "2025-02-24T09:23:28.695Z",
+			"after": "PT1H10M8.56S",
+			"info": {
+				"task": "Task C - Eight Schools",
+				"issue": "Too small tune",
+				"issueId": 1
+			}
+		},
+		{
+			"id": 167,
+			"currentTask": 4,
+			"type": "ActsOnIssue",
+			"time": "2025-02-24T09:23:38.635Z",
+			"after": "PT1H10M18.5S",
+			"info": {
+				"task": "Task C - Eight Schools",
+				"issue": "Too small tune",
+				"issueId": 1
+			}
+		},
+		{
+			"id": 168,
+			"currentTask": 4,
+			"type": "InferenceCancelled",
+			"time": "2025-02-24T09:23:40.626Z",
+			"after": "PT1H10M20.491S",
+			"resolves": 162,
+			"info": {}
+		},
+		{
+			"id": 169,
+			"currentTask": 4,
+			"type": "StartsInference",
+			"time": "2025-02-24T09:23:43.429Z",
+			"after": "PT1H10M23.294S",
+			"info": {}
+		},
+		{
+			"id": 170,
+			"currentTask": 4,
+			"type": "Other",
+			"time": "2025-02-24T09:23:45.410Z",
+			"after": "PT1H10M25.275S",
+			"info": {
+				"value": "uses nuts again"
+			}
+		},
+		{
+			"id": 171,
+			"currentTask": 4,
+			"type": "HelpReceived",
+			"time": "2025-02-24T09:24:34.593Z",
+			"after": "PT1H11M14.458S",
+			"info": {
+				"value": "nuts acceptance rate not usable"
+			}
+		},
+		{
+			"id": 172,
+			"currentTask": 4,
+			"type": "UsesExternalDocumentationStarted",
+			"time": "2025-02-24T09:27:42.796Z",
+			"after": "PT1H14M22.661S",
+			"info": {}
+		},
+		{
+			"id": 173,
+			"currentTask": 4,
+			"type": "DocumentationSrcUsed",
+			"time": "2025-02-24T09:27:48.548Z",
+			"after": "PT1H14M28.413S",
+			"info": {
+				"value": "google"
+			}
+		},
+		{
+			"id": 174,
+			"currentTask": 4,
+			"type": "DocumentationSrcUsed",
+			"time": "2025-02-24T09:27:53.028Z",
+			"after": "PT1H14M32.893S",
+			"info": {
+				"value": "pymc"
+			}
+		},
+		{
+			"id": 175,
+			"currentTask": 4,
+			"type": "UsesExternalDocumentationFinished",
+			"time": "2025-02-24T09:28:22.636Z",
+			"after": "PT1H15M2.501S",
+			"resolves": 172,
+			"info": {}
+		},
+		{
+			"id": 176,
+			"currentTask": 4,
+			"type": "HelpReceived",
+			"time": "2025-02-24T09:29:36.746Z",
+			"after": "PT1H16M16.611S",
+			"info": {
+				"value": "rhat not calculated before higher ess"
+			}
+		},
+		{
+			"id": 177,
+			"currentTask": 4,
+			"type": "InferenceFinished",
+			"time": "2025-02-24T09:30:23.430Z",
+			"after": "PT1H17M3.295S",
+			"resolves": 169,
+			"info": {}
+		},
+		{
+			"id": 178,
+			"currentTask": 4,
+			"type": "StartsInference",
+			"time": "2025-02-24T09:30:27.561Z",
+			"after": "PT1H17M7.426S",
+			"info": {}
+		},
+		{
+			"id": 179,
+			"currentTask": 4,
+			"type": "Other",
+			"time": "2025-02-24T09:30:33.003Z",
+			"after": "PT1H17M12.868S",
+			"info": {
+				"value": "returns to hmc"
+			}
+		},
+		{
+			"id": 180,
+			"currentTask": 4,
+			"type": "Other",
+			"time": "2025-02-24T09:32:33.243Z",
+			"after": "PT1H19M13.108S",
+			"info": {
+				"value": "doch nicht hmc, hat vergessen step zu adjusten"
+			}
+		},
+		{
+			"id": 181,
+			"currentTask": 4,
+			"type": "Other",
+			"time": "2025-02-24T09:35:34.813Z",
+			"after": "PT1H22M14.678S",
+			"info": {
+				"value": "why is it named tau_log?"
+			}
+		},
+		{
+			"id": 182,
+			"currentTask": 4,
+			"type": "InferenceCancelled",
+			"time": "2025-02-24T09:36:04.561Z",
+			"after": "PT1H22M44.426S",
+			"resolves": 178,
+			"info": {}
+		},
+		{
+			"id": 183,
+			"currentTask": 4,
+			"type": "Other",
+			"time": "2025-02-24T09:36:13.497Z",
+			"after": "PT1H22M53.362S",
+			"info": {
+				"value": "irgendwas stimmt nicht, chains mixen schlecht / sind sehr unterschiedlich."
+			}
+		},
+		{
+			"id": 184,
+			"currentTask": 4,
+			"type": "FinishTask",
+			"time": "2025-02-24T09:36:57.145Z",
+			"after": "PT1H23M37.01S",
+			"info": {
+				"task": "Task C - Eight Schools"
+			}
+		},
+		{
+			"id": 185,
+			"currentTask": 5,
+			"type": "FinishStudy",
+			"time": "2025-02-24T09:36:57.145Z",
+			"after": "PT1H23M37.01S",
+			"info": {}
+		}
+	],
+	"studyEnd": "2025-02-24T09:36:57.145Z"
+}

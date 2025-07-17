@@ -1,0 +1,4 @@
+name,Task,order,Inference Count,Cancelled Inference Count,Mean Inference Time,Median Inference Time,Setup Issue Count,Total Setup Issue Duration,Removed Event Count,Number of Changes to Model,Number of Changes to Inference,Time to First Change,Time to First Inference,Number of Plots,Number of External Docs,Percentage of Solved Issues,Fully Solved (seconds),Total Task Time,First Issue Detected,First Issue Solved,Second Issue Detected,Second Issue Solved,Third Issue Detected,Third Issue Solved
+miramichi,A,1,2,0,284.47,284.47,2,124.29,0,0,0,,136.576,5,5,0.00,0,1503.67,null,null,null,null,null,null
+miramichi,C,2,8,6,78.36,52.75,0,0.00,0,1,7,240,30.635,0,0,33.33,0,870.41,204,244,799,null,null,null
+miramichi,B,3,5,3,97.80,103.10,0,0.00,0,1,4,75.028,9.006,0,2,100.00,795.967,816.32,69,99,486,602,549,796

@@ -1,0 +1,4 @@
+name,Task,order,Inference Count,Cancelled Inference Count,Mean Inference Time,Median Inference Time,Setup Issue Count,Total Setup Issue Duration,Removed Event Count,Number of Changes to Model,Number of Changes to Inference,Time to First Change,Time to First Inference,Number of Plots,Number of External Docs,Percentage of Solved Issues,Fully Solved (seconds),Total Task Time,First Issue Detected,First Issue Solved,Second Issue Detected,Second Issue Solved,Third Issue Detected,Third Issue Solved
+Lachine,B,1,1,0,107.84,107.84,0,0.00,0,0,0,,3.281,7,2,0.00,0,1305.05,null,null,null,null,null,null
+Lachine,A,2,6,3,89.89,94.89,0,0.00,0,3,2,288.701,2.036,1,1,0.00,0,884.18,98,null,null,null,null,null
+Lachine,C,3,3,1,110.39,108.84,0,0.00,0,1,1,204.641,10.581,1,1,0.00,0,461.34,null,null,null,null,null,null

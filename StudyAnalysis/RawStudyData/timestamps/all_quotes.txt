@@ -1,0 +1,35 @@
+Irgendwas stimmt nicht, ich weiß noch nicht was
+standard abweichung ist "off" im posterior (passt nicht zum prior)
+gefühlt schaut es besser aus
+Ad Reparemeterise: das ist ja cool. Wenn er das sagt, probiern wir das aus
+Ok, I don't really know whats going on
+Something is happening, that is very good. The debugger is useful
+I will need more time to findout more about the numbers
+Maybe the problem is in the model but I couldn't find anything problematic there
+it actually tells you what to do and I think it works now
+maybe setting adapt_step_size to true would be even better
+If i had time I would increase more
+I try to fix the acceptance rate but i dont know
+It is nice to have the graph visualized on the side
+it is nice to see how the chain developes
+I totally see that something is wrong, but I can't really say what.
+I like that I also see the trace of the tuning step. This is something I don't see in PYMC
+I still have no idea what this model is
+I am a little lost
+I have no idea what to expect
+It's actually really nice to see it happening
+I dont know pymc that well but with stan you have to write 2-3 different models for one thing 
+Maybe its dangerous to have something like this, because the debugger looks great but then you forget to actually check your model predictions
+tau quadriert könnte kritisch sein
+HalfCauchy might be problematic. How could I findout if this creates a problem?
+It is hard to see for me what is wanted in the model.
+It looks very abstract
+The debugger is very cool in my opinion
+It's very helpful to get direct feedback
+It's a bit like tensorboard. very comfortable
+I am unsure how to interprete the black areas in the plot
+The tool doesn't show me any issues but the graph looked weird
+The usual things I do don't work so well in vscode in the browser
+This should be ok
+I cant interprete rhat so thats it from me, very usefull information though
+solved something oO but correct?? CHECK

@@ -1,0 +1,4 @@
+name,Task,order,Inference Count,Cancelled Inference Count,Mean Inference Time,Median Inference Time,Setup Issue Count,Total Setup Issue Duration,Removed Event Count,Number of Changes to Model,Number of Changes to Inference,Time to First Change,Time to First Inference,Number of Plots,Number of External Docs,Percentage of Solved Issues,Fully Solved (seconds),Total Task Time,First Issue Detected,First Issue Solved,Second Issue Detected,Second Issue Solved,Third Issue Detected,Third Issue Solved
+inuvik,B,1,4,0,123.34,108.00,0,0.00,0,0,3,910,50.469,2,6,33.33,0,1878.28,802,1205,906,null,null,null
+inuvik,A,2,3,1,70.27,67.51,1,37.57,0,0,3,130,39.718,0,0,100.00,134,485.41,115,134,null,null,null,null
+inuvik,C,3,11,6,101.97,125.00,0,0.00,0,0,6,327,12.017,0,2,100.00,1542,1799.97,129,618,942,1122,1080,1542

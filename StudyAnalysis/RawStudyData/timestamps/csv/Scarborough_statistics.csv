@@ -1,0 +1,4 @@
+name,Task,order,Inference Count,Cancelled Inference Count,Mean Inference Time,Median Inference Time,Setup Issue Count,Total Setup Issue Duration,Removed Event Count,Number of Changes to Model,Number of Changes to Inference,Time to First Change,Time to First Inference,Number of Plots,Number of External Docs,Percentage of Solved Issues,Fully Solved (seconds),Total Task Time,First Issue Detected,First Issue Solved,Second Issue Detected,Second Issue Solved,Third Issue Detected,Third Issue Solved
+Scarborough,C,1,1,0,164.06,164.06,0,0.00,0,2,0,1558.64,1.901,5,4,0.00,null,1814.18,1421,null,null,null,null,null
+Scarborough,A,2,2,0,347.51,347.51,0,0.00,0,0,1,369.831,43.6,0,2,100.00,669.764,1050.57,222,670,null,null,null,null
+Scarborough,B,3,4,0,215.40,198.26,0,0.00,0,0,3,292.049,61.441,0,4,33.33,null,1402.91,279,985,965,null,null,null

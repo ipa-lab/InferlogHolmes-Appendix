@@ -1,0 +1,4 @@
+name,Task,order,Inference Count,Cancelled Inference Count,Mean Inference Time,Median Inference Time,Setup Issue Count,Total Setup Issue Duration,Removed Event Count,Number of Changes to Model,Number of Changes to Inference,Time to First Change,Time to First Inference,Number of Plots,Number of External Docs,Percentage of Solved Issues,Fully Solved (seconds),Total Task Time,First Issue Detected,First Issue Solved,Second Issue Detected,Second Issue Solved,Third Issue Detected,Third Issue Solved
+Nelson,A,1,2,0,92.74,92.74,1,101.72,0,0,1,1062.269,54.863,0,0,100.00,1321.828,1396.19,1079,1322,null,null,null,null
+Nelson,B,2,4,1,130.06,154.52,0,0.00,0,0,3,550,14.754,6,0,33.33,null,1242.32,312,552,331,null,null,null
+Nelson,C,3,4,0,266.47,217.03,2,277.35,0,1,3,334.677,7.849,5,0,100.00,1234.586,1795.88,140,396,393,407,1230,1235

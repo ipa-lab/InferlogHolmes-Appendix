@@ -1,0 +1,4 @@
+name,Task,order,Inference Count,Cancelled Inference Count,Mean Inference Time,Median Inference Time,Setup Issue Count,Total Setup Issue Duration,Removed Event Count,Number of Changes to Model,Number of Changes to Inference,Time to First Change,Time to First Inference,Number of Plots,Number of External Docs,Percentage of Solved Issues,Fully Solved (seconds),Total Task Time,First Issue Detected,First Issue Solved,Second Issue Detected,Second Issue Solved,Third Issue Detected,Third Issue Solved
+Belleville,B,1,2,0,228.47,228.47,0,0.00,0,2,0,817.991,337.09,0,0,0.00,null,1496.24,null,null,null,null,null,null
+Belleville,A,2,3,0,190.66,165.44,1,302.72,0,0,2,214.045,11.091,0,0,100.00,297.753,1264.14,87,298,null,null,null,null
+Belleville,C,3,6,2,113.00,112.92,1,468.35,0,1,4,383.509,21.754,5,1,66.67,null,1068.34,282,518,670,818,null,null

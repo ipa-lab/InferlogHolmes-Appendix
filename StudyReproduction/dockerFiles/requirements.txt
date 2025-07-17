@@ -1,0 +1,17 @@
+numpy==1.26.4
+torch
+tqdm
+matplotlib
+pandas
+seaborn
+jupyterlab
+json-rpc
+graphviz
+simplejson
+requests
+ast-scope==0.4.4
+dataclasses-json
+werkzeug
+multiprocess
+pymc
+ipywidgets

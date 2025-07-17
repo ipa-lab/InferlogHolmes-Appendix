@@ -1,0 +1,4 @@
+name,Task,order,Inference Count,Cancelled Inference Count,Mean Inference Time,Median Inference Time,Setup Issue Count,Total Setup Issue Duration,Removed Event Count,Number of Changes to Model,Number of Changes to Inference,Time to First Change,Time to First Inference,Number of Plots,Number of External Docs,Percentage of Solved Issues,Fully Solved (seconds),Total Task Time,First Issue Detected,First Issue Solved,Second Issue Detected,Second Issue Solved,Third Issue Detected,Third Issue Solved
+louisbourg,C,1,2,0,181.96,181.96,0,0.00,0,0,1,845,222.785,2,1,0.00,null,1180.25,null,null,null,null,null,null
+louisbourg,B,2,5,2,120.26,129.18,0,0.00,0,3,1,194.748,3.234,0,0,100.00,909.746,910.60,190,224,358,682,null,910
+louisbourg,A,3,8,5,83.87,75.53,1,264.27,0,0,4,604.488,67.953,0,5,100.00,617.313,1221.92,252,617,null,null,null,null
