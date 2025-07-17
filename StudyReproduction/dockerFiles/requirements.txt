@@ -1,4 +1,5 @@
 numpy==1.26.4
+pymc==5.21.2
 torch
 tqdm
 matplotlib
@@ -13,5 +14,4 @@ ast-scope==0.4.4
 dataclasses-json
 werkzeug
 multiprocess
-pymc
 ipywidgets

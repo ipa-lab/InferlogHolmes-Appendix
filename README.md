@@ -1,14 +1,34 @@
 # InferlogHolmes-Appendix
 
-## InferlogHolmes
-Contains the source code to the Visual Study Code extension as well as the python package for pymc and LASAPP.
+## Overview:
+```
+📦 .
+├─ InferLogHolmes/										# InferLog Holmes Source Code
+│  ├─ extension/										# Source Code to the VsCode Extension
+│  ├─ ppl/												# Source Code to custom inhouse PPL
+│  ├─ pymcdebug/										# Source Code to python package for debugging PyMC
+│  ├─ static/											# Source Code to slightly altered LASAPP
+│  └─ test/												# a workspace test folder for the extension
+├─ StudyAnalysis/										# Study Analysis for the paper
+│  ├─ RawStudyData/										# Data collected from the study
+│  │  ├─ participants_solutions/						# Solutions to tasks for each participant
+│  │  ├─ timestamps/									# Logged and cleaned Timestamps for participants task attempts
+│  │  ├─ all_combined.csv								# Final combined summary statistics to participants attempts
+│  │  └─ Inference Analysis Post-Study Survey.csv		# Post-Study Survey responses
+│  ├─ table_results										# Automatically generated latex tables
+│  ├─ bayesian_data_analysis.ipynb						# Bayesian Analysis for RQ1 - Hypothesis1
+│  ├─ readme.md											# Instructions on how to run the notebooks
+│  ├─ study_data_analysis.ipynb							# Data Analysis, tests and plots for RQ1, RQ2 and RQ3
+│  └─ utils.py											# utility functions for plotting and statistical tests
+├─ StudyLogger/											# Source Code to the tool used to log participants attempts
+├─ StudyReproduction/									# Full Study Environment reproduction scripts
+│  ├─ dockerFiles										# Files to built the docker image with prebuilt vscode and InferLog Holmes
+│  ├─ FullStudyAndTasksFolder							# Prepared task templates
+│  └─ readme.md											# Instructions on how to reproduce the study environment and test InferLog Holmes
+└─ README.md
+```
 
-## StudyAnalysis
-Contains the raw and processed data from the study, together with Jupyter Notebooks for the data analysis. The main analysis is conducted in `study_data_analysis.ipynb`. The Bayesian Analsysis for RQ1-H1 is conducted in `bayesian_data_analysis.ipynb`. This folder further contains the final solutions from each participant.
+## Run InferLog Holmes
 
-## StudyLogger
-Contains the source code for the tool used to log study events and clean study traces for analysis.
-
-## StudyReproduction
-Contains docker files, built packages and full task templates to reproduce the study. Also contains prepared folders for each possible task order that contain all the necessary files to start.
+Follow the instructions in [StudyReproduction/readme.md](StudyReproduction/readme.md) to setup the docker image used in the study and test the application in a reproducible environment.
 

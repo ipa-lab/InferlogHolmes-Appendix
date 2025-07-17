@@ -1,0 +1,8 @@
+# System requirements to run the code in the Notebooks
+
+With Python version: 3.10.16
+
+## With conda
+- Run `conda create -n "inferlog" -c conda-forge python=3.10`
+- Follow the instruction by conda to install and activate the environment
+- Run: `pip install pandas==2.2.3 matplotlib==3.10.3 numpy==2.2.6 scipy==1.15.3 ipython==8.24.0 seaborn==0.13.2 cliffs-delta==1.0.0 lifelines==0.30.0 pymc==5.22.0`
