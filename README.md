@@ -1,5 +1,13 @@
 # InferlogHolmes-Appendix
 
+This is the Online Appendix to: **Online and Interactive Bayesian Inference Debugging**. It contains:
+- raw and cleaned data from the study, 
+- code used for the data analysis in Jupyter Notebooks
+- additional graphs and statistical tests and checks inside Jupyter Notebooks
+- Dockerfiles and instructions on how to reproduce the study environment
+- Source code for InferLog Holmes and instructions on how to build it.
+- Source code for the tool used to log the participants task attempts.
+
 ## Overview:
 ```
 📦 .
@@ -8,7 +16,8 @@
 │  ├─ ppl/												# Source Code to custom inhouse PPL
 │  ├─ pymcdebug/										# Source Code to python package for debugging PyMC
 │  ├─ static/											# Source Code to slightly altered LASAPP
-│  └─ test/												# a workspace test folder for the extension
+│  ├─ test/												# a workspace test folder for the extension
+|. └─ readme.md											# instructions on how to build InferLog Holmes from scratch
 ├─ StudyAnalysis/										# Study Analysis for the paper
 │  ├─ RawStudyData/										# Data collected from the study
 │  │  ├─ participants_solutions/						# Solutions to tasks for each participant
@@ -30,7 +39,7 @@
 
 ## Run InferLog Holmes
 
-Follow the instructions in [StudyReproduction/readme.md](StudyReproduction/readme.md) to setup the docker image used in the study and test the application in a reproducible environment.
+Follow the instructions in [StudyReproduction/readme.md](StudyReproduction/readme.md) to setup the docker image used in the study and test the application in a reproducible environment. Alternatively follow [InferLogHolmes/readme.md](InferLogHolmes/readme.md) to build and run InferLog Holmes from scratch.
 
 ## Study Analysis
 ### Main Analysis
@@ -38,3 +47,4 @@ We have prepared two notebooks for the analysis presented in our study. The main
 
 ### Bayesian Analysis
 The Bayesian analysis conducted for RQ1 - H1 can be found here: [StudyAnalysis/bayesian_data_analysis.ipynb](StudyAnalysis/bayesian_data_analysis.ipynb). This notebook contains the full model together with plots, posterior checks and posterior predictive samples from a secondary prediction model.
+
