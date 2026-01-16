@@ -2,7 +2,7 @@
 
 ## Requirements:
 - Node v20 or later
-- VSCode with this workspace opened
+- VSCode with the parent folder to this folder opened as a workspace
 - Python v3.10
 
 ## Step 1. Python Setup with conda
