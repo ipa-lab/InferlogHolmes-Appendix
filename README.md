@@ -1,5 +1,11 @@
 # InferlogHolmes-Appendix
 
+[![Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.18262423.svg)](https://doi.org/10.5281/zenodo.18262423)
+[![arXiv](https://img.shields.io/badge/cs.SE-%20arXiv:2510.26579v1-B31B1B.svg)](https://doi.org/10.48550/arXiv.2510.26579)
+
+>[!important]
+The [Artifact_README.md](Artifact_README.md) contains a more comprehensive overview of this artifact, which is the main entrypoint for the zenodo release. 
+
 This is the Online Appendix to: **Online and Interactive Bayesian Inference Debugging**. It contains:
 - raw and cleaned data from the study, 
 - code used for the data analysis in Jupyter Notebooks
@@ -48,3 +54,6 @@ We have prepared two notebooks for the analysis presented in our study. The main
 ### Bayesian Analysis
 The Bayesian analysis conducted for RQ1 - H1 can be found here: [StudyAnalysis/bayesian_data_analysis.ipynb](StudyAnalysis/bayesian_data_analysis.ipynb). This notebook contains the full model together with plots, posterior checks and posterior predictive samples from a secondary prediction model.
 
+## How to Cite
+- **Paper:**  Nathanael Nussbaumer, Markus Böck, and Jürgen Cito. 2026. Online and Interactive Bayesian Inference Debugging. In 2026 IEEE/ACM 48th International Conference on Software Engineering (ICSE ’26), April 12–18, 2026, Rio de Janeiro, Brazil. ACM, New York, NY, USA, 12 pages. https://doi.org/10.1145/3744916.3773215
+- **This Repository:** Nussbaumer, N., Böck, M., & Cito, J. (2026). Online and Interactive Bayesian Inference Debugging (0.1.0). Zenodo. https://doi.org/10.5281/zenodo.18262423
