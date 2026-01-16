@@ -1,6 +1,6 @@
 # InferlogHolmes-Appendix
 
-[![Website](https://zenodo.org/badge/DOI/10.5281/zenodo.18262423.svg)](https://doi.org/10.5281/zenodo.18262423)
+[![Zenodo](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18262423-blue)](https://doi.org/10.5281/zenodo.18262423)
 [![arXiv](https://img.shields.io/badge/cs.SE-%20arXiv:2510.26579v1-B31B1B.svg)](https://doi.org/10.48550/arXiv.2510.26579)
 
 >[!important]
