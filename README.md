@@ -6,6 +6,10 @@
 >[!important]
 The [Artifact_README.md](Artifact_README.md) contains a more comprehensive overview of this artifact, which is the main entrypoint for the zenodo release. 
 
+## Extended Talk with Live Demo
+[![Extended Talk with Live Demo](https://img.youtube.com/vi/HCyVOs0Z2vA/maxresdefault.jpg)](https://www.youtube.com/watch?v=HCyVOs0Z2vA)
+
+## Introduction
 This is the Online Appendix to: **Online and Interactive Bayesian Inference Debugging**. It contains:
 - raw and cleaned data from the study, 
 - code used for the data analysis in Jupyter Notebooks
